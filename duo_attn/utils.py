@@ -3,7 +3,6 @@ import transformers
 import torch
 from accelerate import infer_auto_device_map, dispatch_model
 from accelerate.utils import get_balanced_memory
-import matplotlib.pyplot as plt
 import numpy as np
 import os
 import json
